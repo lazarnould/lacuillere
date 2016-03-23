@@ -1,0 +1,41 @@
+// Graphical variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS
+@import "layout/index";
+@import "components/index";
+@import "pages/index";
+@import "vendor/index";
+
+
+.list {
+  list-style: none;
+  color: white;
+}
+
+.container {
+
+margin-bottom: 50px;
+width: 200px;
+
+
+}
+
+.form {
+  background-color: black;
+  opacity: 0.6;
+  width: 400px;
+  padding: 30px;
+  margin: 50px
+}
+
+.banner {
+  background-size: cover
+}
+

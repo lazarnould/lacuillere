@@ -1,0 +1,13 @@
+<div class="banner" style="background-image: url('http://static.flickr.com/50/108289042_2732335858_o.jpg');">
+  <% @restaurants.each do |restaurant| %>
+  <div class="banner-content text-center">
+    <ul class="list">
+      <li><h1><%=restaurant.name%></h1></li>
+      <li><i class="fa fa-location-arrow"></i><%= restaurant.address %></li>
+      <li><i class="fa fa-phone"></i> <%=restaurant.phone_number%></li>
+      <li> <i class="fa fa-cutlery"></i> <%=restaurant.category%></li>
+    </ul>
+  </div>
+  <%end%>
+
+</div>

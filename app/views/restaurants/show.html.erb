@@ -1,0 +1,13 @@
+<h1 class="text-center"><%= @restaurant.name %></h1>
+
+<ul class ="text-center list">
+<li><%= @restaurant.address %></li>
+<li class="fa fa-phone"><%=@restaurant.phone_number%></li>
+<li class="fa fa-cutlery"><%=@restaurant.category%></li>
+</ul>
+
+<%= render 'reviews/simple_form_review' %>
+<%= render 'reviews/index'%>
+
+
+<%= link_to "index", restaurant_path(), class: "btn btn-danger" %>
